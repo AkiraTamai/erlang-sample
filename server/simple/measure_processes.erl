@@ -22,7 +22,7 @@ wait() ->
 for(N, N, F) -> [F()];
 for(I, N, F) -> [F()|for(I+1, N, F)].
 
-
+% case mac pc
 %1> measure_processes:limit(1000).
 %Limit allowed processes:262144
 %Process spawn time=0.0 (9.0) μs
